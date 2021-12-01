@@ -83,7 +83,7 @@ class Temp:
             state = self.env.reset()
             state = np.reshape(state, [1, self.state_size])
             while not done:
-                #self.env.render()
+                self.env.render()
                 action = self.agent.act(state)
                 next_state, reward, done, info = self.env.step(action)
                 next_state = np.reshape(next_state, [1, self.state_size])
