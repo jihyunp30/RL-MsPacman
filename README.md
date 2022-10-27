@@ -1,3 +1,5 @@
+https://user-images.githubusercontent.com/70607277/198192155-af68d8bf-d564-42a0-a289-aa11b4346b48.mov
+
 This project is a deep learning model using reinforcement learning to maximize score in Atari 2600 game MsPacman.
 Reinforcement learning is a field of machine learning and AI directed at understanding and solving general tasks that follow a particular model.
 As an agent takes actions and steps through an environment, it is trained to map the observation of the environment to an action.
