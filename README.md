@@ -16,6 +16,8 @@ It takes an action, receives a reward, and the state is updated.
 The state, action, reward, and new state values are appended to the memory for training.
 After each episode, the agent is trained from its memory with deep reinforcement learning. 
 
+<img width="451" alt="Screen Shot 2022-10-27 at 12 29 50 AM" src="https://user-images.githubusercontent.com/70607277/198191963-fbf2969b-a32b-423e-a232-8fcd5eb050f0.png">
+
 For the evaluation, rewards for each episode are appended to a list.
 Also, an average of 10 episodes are calculated for evaluations and also stored in a list.
 Looking at the generated graphs from the lists, the overall score is slowly increasing, however, there are few outliers.
@@ -25,6 +27,8 @@ After running the code several times, there are cases that the average score inc
 This can be caused by large learning rate or small batch size, so adjusting those values can possibly maximize the rewards.
 Moreover, in the code, the replay function is called after each episode.
 It can be called after every action taken, so the model can be trained more often.
+
+<img width="703" alt="Screen Shot 2022-10-27 at 12 32 19 AM" src="https://user-images.githubusercontent.com/70607277/198192040-4f219da2-4fdf-496a-bd9c-ba2ec21c7ed9.png">
 
 For the project, Deep Q-Learning is implemented to maximize the score of MsPacman from the Atari 2600 game.
 An agent is created to successfully play the game using the RAM of the Atari machine.
